@@ -15,7 +15,7 @@ public class HelloController {
     @GetMapping
     public ResponseEntity<?> greetings() {
 
-        return new ResponseEntity<Object>("<h1 style='color:green;'>Congratulations, your app has been deployed!<h1>", HttpStatus.OK);
+        return new ResponseEntity<Object>("<h1 style='color:green;'>Congratulations, your app has been deployed! Beanstalk<h1>", HttpStatus.OK);
     }
 
 }
